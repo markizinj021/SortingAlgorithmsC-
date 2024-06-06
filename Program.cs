@@ -1,7 +1,7 @@
 using System;
 namespace SortingAlgorithms
 {
-class Program
+class BubbleSort
 {
     static void BubbleSort(int[]a)
     {
