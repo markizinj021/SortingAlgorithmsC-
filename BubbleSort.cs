@@ -3,7 +3,7 @@ namespace SortingAlgorithms
 {
 class BubbleSort
 {
-    static void BubbleSort(int[]a)
+    static void BubbleSortMethod(int[]a)
     {
         Console.WriteLine("Original array:");
         foreach(var x in a)
@@ -33,7 +33,7 @@ class BubbleSort
     {
         Random r=new Random();
         int[]array={r.Next(0,100),r.Next(0,100),r.Next(0,100),r.Next(0,100),r.Next(0,100)};
-        BubbleSort(array);
+        BubbleSortMethod(array);
     }
 }
 }
